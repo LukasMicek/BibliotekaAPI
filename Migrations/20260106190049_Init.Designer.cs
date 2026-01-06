@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BibliotekaAPI.Migrations
 {
     [DbContext(typeof(BibliotekaDbContext))]
-    [Migration("20260106182708_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20260106190049_Init")]
+    partial class Init
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
